@@ -5,7 +5,7 @@
       "image": "",
       "email": "chris@chrisreagle.com",
       "phone": "(724) 730-3844",
-      "summary": "Eng",
+      "summary": "",
       "location": {
         "city": "Pittsburgh",
         "countryCode": "US",
@@ -51,53 +51,53 @@
         "url": "https://sierraexperts.com",
         "startDate": "2019-10-01",
         "endDate": "2021-05-01",
-        "summary": "Description…",
+        "summary": "Provided expertise for many different types of companies and products.",
         "highlights": [
-          "Started the company"
+            "Designed and Created an ERP system for client, worked individually with client to create specs and gather information while building out a system to support their day to day operations",
+            "Created a ETL process to transfer data from several large database, combine the data and remap the relationships, set the new database up as a distributed database using merge replication between locations",
+            "Supported an internal backup system for running as a service on windows server machines",
+            "Provided support for existing applications for customers"
         ]
       }],
     "education": [{
-      "institution": "University",
-      "url": "https://institution.com/",
-      "area": "Software Development",
-      "studyType": "Bachelor",
-      "startDate": "2011-01-01",
-      "endDate": "2013-01-01",
-      "score": "4.0",
-      "courses": [
-        "DB1101 - Basic SQL"
+      "institution": "Northwestern University",
+      "url": "https://www.northwestern.edu/",
+      "area": "Orthotics and Prosthetics",
+      "studyType": "Certificate Program"
+    },
+    {
+        "institution": "University of Pittsburgh",
+        "url": "https://pitt.edu/",
+        "area": "Business Management and Economics",
+        "studyType": "Bachelor of Science"
+      }],
+    "skills": [{
+      "name": "Backend Development",
+      "keywords": [
+        "C#",
+        "Python",
+        ".Net",
+        "Redis",
+        "SQL",
+        ""
       ]
     },
     {
-        "institution": "University",
-        "url": "https://institution.com/",
-        "area": "Software Development",
-        "studyType": "Bachelor",
-        "startDate": "2011-01-01",
-        "endDate": "2013-01-01",
-        "score": "4.0",
-        "courses": [
-          "DB1101 - Basic SQL"
-        ]
-      }],
-    "skills": [{
-      "name": "Web Development",
-      "level": "Master",
+      "name": "Frontend Development",
       "keywords": [
         "HTML",
-        "CSS",
-        "JavaScript"
+        "JavaScript",
+        "Typescript"
       ]
-    }],
-    "languages": [{
-      "language": "English",
-      "fluency": "Native speaker"
-    }],
-    "interests": [{
-      "name": "Wildlife",
+    },
+    {
+      "name": "DevOps",
       "keywords": [
-        "Ferrets",
-        "Unicorns"
+        "Kubernetes",
+        "CI/CD Pipelines",
+        "Helm",
+        "Azure",
+        "GitHub"
       ]
     }]
   }
