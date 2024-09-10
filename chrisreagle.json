@@ -5,7 +5,7 @@
       "image": "",
       "email": "chris@chrisreagle.com",
       "phone": "(724) 730-3844",
-      "summary": "",
+      "summary": "Software Engineer with experience working on a product team for a remote SaaS company. Highly efficient and able to adapt to different scenarios as needed.",
       "location": {
         "city": "Pittsburgh",
         "countryCode": "US",
@@ -22,27 +22,26 @@
       "url": "https://loyalhealth.com",
       "startDate": "2021-05-01",
       "endDate": "2024-09-03",
-      "summary": "Member of a team that created and supported a chat bot for health systems, provided internal CI/CD support, and ",
+      "summary": "Member of a team that created and supported a chat bot for health systems, provided internal CI/CD support, and provided skunkworks projects when required.",
       "highlights": [
+        "Provided features and support for product which handled 1000s of requests a second",
         "Created a backend service for utilizing Chat GPT to utilize a RAG system for creating responses to incoming messages, created agents to interact with internal and external API's",
-        "Worked directly with internal customer service team to reduce the time they spent supporting customers",
+        "Worked directly with internal customer service team to reduce the time they spent supporting customers, building services to allow bulk importing, custom data migrations, and other time saving features",
         "Lead initiative for redeveloping dialog system to allow for quicker setup and onboarding of new employees, 50% decrease in ramp up time for new hires",
-        "Integrated with Epic API to pull patient information from MyChart",
-        "Utilized a feedforward neural network to predict what a user was looking for",
-        "Integrated with Infermedica API to create a workflow where users could check symptoms and recieve a tenative diagnosis to take to Dr. apptointment",
-        "Supported a live text chat system, utilized Signal R for real time messaging over websocket",
-        "Built a service to consume Kafka messages and pull data for Health Risk Assessment forms from a common service",
-        "Maintained a python service for training natural language models using Tensorflow",
-        "Maintained an entity system to be used with intents for incoming utterance predictions",
-        "Utilized worker patterns to complete work async from main thread where speed was important",
+        "Integrated with Third Party API's to perform actions such as query patient information, and collate symptoms into a diagnosis",
+        "Created models using a feedforward neural network to predict intents while utilizing local entity library",
+        "Created and Supported a Live Chat service which utilized Signal R for websocket management to provide P2P and bot communication",
+        "Integrated with GBM to provide bot integration into google listings",
+        "Built a service to consume Kafka messages and pull data for Health Risk Assessment forms from a common form service",
+        "Maintained a python based service used to train models using tensorflow",
+        "Utilized worker patterns to queue and complete work async from the main thread to speed up requests",
         "Monitored and Optimized slow SQL Queries using execution plans to improve our response time from chat bot",
-        "Created and Stored cached information in redis for reducing strain on database",
-        "Created an NPM package utilizing rollup to share components between multiple projects",
-        "Created and Maintained CI/CD pipelines",
-        "Created a service that was deployed as a docker image that was utilized in CI/CD pipelines using DBUP to automatically apply migrations during deployments",
-        "Deployed to Kubernetes to be able to scale horizontally with services as required",
-        "Used Helm charts to template the kubernetes configuration files",
-        "Used Docker to create versioned images of services that were deployed to kubernetes cluster"
+        "Utilized Redis as an internal cache layer to reduce strain on database and improve speed of retrieval",
+        "Created a NPM package using rollup to share UI components between multiple projects",
+        "Created and Maintained Azure DevOps pipelines utilizing YAML configurations based on shared templates",
+        "Built internal application for performing database migrations during CI/CD Releases utilizing on DBUP",
+        "Used Helm Charts to template deployments into Kubernetes for horizontal scaling on demand",
+        "Created versioned docker images pushed into a container repository to be ran in multiple environments"
       ]
     },
     {
@@ -79,7 +78,8 @@
         ".Net",
         "Redis",
         "SQL",
-        ""
+        "Chat GPT",
+        "NLP"
       ]
     },
     {
@@ -87,7 +87,8 @@
       "keywords": [
         "HTML",
         "JavaScript",
-        "Typescript"
+        "Typescript",
+        "CSS"
       ]
     },
     {
