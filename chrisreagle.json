@@ -22,16 +22,16 @@
       "url": "https://loyalhealth.com",
       "startDate": "2021-05-01",
       "endDate": "2024-09-03",
-      "summary": "Member of a team that created and supported a chat bot for health systems, provided internal CI/CD support, and provided skunkworks projects when required.",
+      "summary": "Member of a team that created and supported a chat bot for health systems, provided internal CI/CD support, and provided skunkworks projects when required. The product handled 3,600,000 messages an hour, or 1,000 messages a second through messaging protocol and API Requests upwards of 500 requests per second.",
       "highlights": [
-        "Provided features and support for product which handled 1000s of requests a second from multiple hospital systems",
         "Created a service utilizing Chat GPT and Agents to provide a chat service to patients using scraped data from a hospital system after a RAG lookup",
-        "Worked directly with internal customer service team to reduce the time they spent supporting customers, building services to allow bulk importing, custom data migrations, and other time saving features",
+        "Worked directly with internal customer service team to reduce the time they spent supporting customers, building services to allow bulk importing, custom data migrations. Saved hundreds of man hours for each feature.",
         "Lead initiative for redeveloping dialog system to allow for quicker setup and onboarding of new employees, 50% decrease in ramp up time for new hires by decreasing complexity",
         "Integrated with Third Party API's to perform actions such as query patient information, and collate symptoms into a diagnosis",
-        "Created models using a feedforward neural network to predict intents while utilizing local entity library so we could predict the patients intents",
+        "Created models using a feedforward neural network and local entity library to predict user intent",
         "Created and Supported a Live Chat service which utilized Signal R for websocket management to provide P2P and bot communication",
         "Integrated with GBM to provide bot integration into google listings",
+        "Managed multiple service environment communicating through internal API's on kubernetes",
         "Built a service to consume Kafka messages and pull data for Health Risk Assessment forms from a common form service",
         "Maintained a python based service used to train models using tensorflow",
         "Utilized worker patterns to queue and complete work async from the main thread to speed up requests",
@@ -43,7 +43,8 @@
         "Created and Maintained Azure DevOps pipelines utilizing YAML configurations based on shared templates",
         "Built internal application for performing database migrations during CI/CD Releases utilizing on DBUP",
         "Used Helm Charts to template deployments into Kubernetes for horizontal scaling on demand",
-        "Created versioned docker images pushed into a container repository to be ran in multiple environments"
+        "Created versioned docker images pushed into a container repository to be ran in multiple environments",
+        "Worked on an agile team to create plans and execute in an iterative process"
       ]
     },
     {
