@@ -38,7 +38,7 @@
         "Monitored and Optimized slow SQL Queries using execution plans to improve our response time from chat bot",
         "Utilized Redis as an internal cache layer to reduce strain on database and improve speed of retrieval",
         "Covered business logic with testing to provide full coverage with unit tests using XUnit, and integration tests where needed",
-        "Used Checkly to run SLA test suits using playwright to ensure we were meeting uptime requirements", 
+        "Used Checkly to run SLA test suites using playwright to ensure we were meeting uptime requirements", 
         "Created a NPM package using rollup to share UI components between multiple projects",
         "Created and Maintained Azure DevOps pipelines utilizing YAML configurations based on shared templates",
         "Built internal application for performing database migrations during CI/CD Releases utilizing on DBUP",
