@@ -22,7 +22,7 @@
       "url": "https://loyalhealth.com",
       "startDate": "2021-05-01",
       "endDate": "2024-09-03",
-      "summary": "Member of a team that created and supported a chat bot for health systems, provided internal CI/CD support, and provided skunkworks projects when required. The product was built to handle 3,600,000 messages an hour, or 1,000 messages a second through messaging protocol, with averages of 77,446 messages per hour in peak times and API Requests upwards of 500 requests per second.",
+      "summary": "Member of a team that created and supported a chat bot for health systems, provided internal CI/CD support, and provided skunkworks projects when required. The product was built to handle 1,000 or more messages a second through messaging protocol, with averages of 77,446 messages per hour in peak times and API Requests upwards of 500 requests per second.",
       "highlights": [
         "Created a service utilizing Chat GPT and Agents to provide a chat service to patients using scraped data from a hospital system after a RAG lookup",
         "Worked directly with internal customer service team to reduce the time they spent supporting customers, building services to allow bulk importing, custom data migrations. Saved hundreds of man hours for each feature",
