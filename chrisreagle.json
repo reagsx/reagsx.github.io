@@ -5,7 +5,7 @@
       "image": "",
       "email": "chris@chrisreagle.com",
       "phone": "(724) 730-3844",
-      "summary": "Software Engineer with experience working on a product team for a remote first SaaS company. I am highly adaptable, enjoy learning, and love to translate business requirements into software.",
+      "summary": "I am a Software Engineer with experience at a remote first SaaS company. I love to learn, and figure out problems. It is what has driven me to be an engineer. I excel in working with teams and other departments to identify problems, and come to a solution that makes everyone happy and feel like they achieved their goal.",
       "location": {
         "city": "Pittsburgh",
         "countryCode": "US",
@@ -22,27 +22,27 @@
       "url": "https://loyalhealth.com",
       "startDate": "2021-05-01",
       "endDate": "2024-09-03",
-      "summary": "Member of a team that created and supported a chat bot for health systems, provided internal CI/CD support, and provided skunkworks projects when required. The product handled 3,600,000 messages an hour, or 1,000 messages a second through messaging protocol and API Requests upwards of 500 requests per second.",
+      "summary": "Member of a team that created and supported a chat bot for health systems, provided internal CI/CD support, and provided skunkworks projects when required. The product was built to handle 3,600,000 messages an hour, or 1,000 messages a second through messaging protocol, with averages of 77,446 messages per hour in peak times and API Requests upwards of 500 requests per second.",
       "highlights": [
         "Created a service utilizing Chat GPT and Agents to provide a chat service to patients using scraped data from a hospital system after a RAG lookup",
-        "Worked directly with internal customer service team to reduce the time they spent supporting customers, building services to allow bulk importing, custom data migrations. Saved hundreds of man hours for each feature.",
-        "Lead initiative for redeveloping dialog system to allow for quicker setup and onboarding of new employees, 50% decrease in ramp up time for new hires by decreasing complexity",
-        "Integrated with Third Party API's to perform actions such as query patient information, and collate symptoms into a diagnosis",
-        "Created models using a feedforward neural network and local entity library to predict user intent",
+        "Worked directly with internal customer service team to reduce the time they spent supporting customers, building services to allow bulk importing, custom data migrations. Saved hundreds of man hours for each feature",
+        "Lead initiative for redeveloping dialog system to allow for quicker setup and onboarding of new employees, 50% decrease in ramp up time for new hires by decreasing complexity. Contained a full user validation system containing 50+ validation rules to ensure that the system was being set up correctly",
+        "Integrated with Third Party API's to perform actions such as query patient information, and collate symptoms into a diagnosis, examples such as Epic, Cerner, Infermedica",
+        "Created models using a feedforward neural network and local entity library to predict user intent, utilized BERT as our model",
         "Created and Supported a Live Chat service which utilized Signal R for websocket management to provide P2P and bot communication",
         "Integrated with GBM to provide bot integration into google listings",
-        "Managed multiple service environment communicating through internal API's on kubernetes",
+        "Managed multiple service environment communicating through internal API's on kubernetes, utilizing the pod scaling to be able to react to changes in demand and decreasing downtime by having hot replicas",
         "Built a service to consume Kafka messages and pull data for Health Risk Assessment forms from a common form service",
-        "Maintained a python based service used to train models using tensorflow",
-        "Utilized worker patterns to queue and complete work async from the main thread to speed up requests",
-        "Monitored and Optimized slow SQL Queries using execution plans to improve our response time from chat bot",
-        "Utilized Redis as an internal cache layer to reduce strain on database and improve speed of retrieval",
-        "Covered business logic with testing to provide full coverage with unit tests using XUnit, and integration tests where needed",
-        "Used Checkly to run SLA test suites using playwright to ensure we were meeting uptime requirements", 
+        "Maintained a python based service that was using tensorflow to act as a worker service training requested custom intent models from a queue",
+        "Utilized worker patterns to queue and complete work async, such as informational logging and cleaning up sockets",
+        "Monitored and Optimized slow SQL Queries using azure sql server and execution plans to improve our response time from chat bot, reports, and data dashboards",
+        "Utilized Redis as an internal cache layer to reduce strain on database and improve speed of retrieval, create distributed caache, and backplane for signal r",
+        "Covered business logic with testing to provide full coverage with unit tests using XUnit, and integration tests where needed, all tests were required to run during build pipeline to prevent against unintended bugs",
+        "Used Checkly to run SLA test suites using playwright to ensure we were meeting uptime requirements, and first alert to any issues that would impact SLA agreements", 
         "Created a NPM package using rollup to share UI components between multiple projects",
         "Created and Maintained Azure DevOps pipelines utilizing YAML configurations based on shared templates",
         "Built internal application for performing database migrations during CI/CD Releases utilizing on DBUP",
-        "Used Helm Charts to template deployments into Kubernetes for horizontal scaling on demand",
+        "Used Helm Charts to template deployments, this allowed for standardization and time saving when building out configurations",
         "Created versioned docker images pushed into a container repository to be ran in multiple environments",
         "Worked on an agile team to create plans and execute in an iterative process"
       ]
@@ -60,12 +60,25 @@
             "Supported an internal backup system for running as a service on windows server machines",
             "Provided support for existing applications for customers"
         ]
+      },
+      {
+        "name": "Flowline",
+        "position": "System Administrator",
+        "startDate": "2018-11-01",
+        "endDate": "2019-10-01"
+      },
+      {
+        "name": "Custom Artificial Limb & Brace, Inc",
+        "position": "System Administrator",
+        "url": "https://sierraexperts.com",
+        "startDate": "2013-08-01",
+        "endDate": "2017-09-01"
       }],
     "education": [{
       "institution": "Northwestern University",
       "url": "https://www.northwestern.edu/",
       "area": "Orthotics and Prosthetics",
-      "studyType": "Certificate Program"
+      "studyType": "Certificate"
     },
     {
         "institution": "University of Pittsburgh",
@@ -82,7 +95,8 @@
         "Redis",
         "SQL",
         "Chat GPT",
-        "NLP"
+        "NLP",
+        "LLM"
       ]
     },
     {
