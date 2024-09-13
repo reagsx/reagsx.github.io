@@ -2,8 +2,8 @@ const finalhandler = require('finalhandler')
 const http = require('http')
 const serveStatic = require('serve-static')
 
-// Serve up public/ftp folder
-const serve = serveStatic('./', { index: ['index.html', 'index.htm'] })
+// Serve the main folder
+const serve = serveStatic('./', { index: ['output/pdf_output.html', 'index.htm'] })
 
 // Create server
 const server = http.createServer(function onRequest (req, res) {
