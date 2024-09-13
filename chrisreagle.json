@@ -116,5 +116,8 @@
         "Azure",
         "GitHub"
       ]
-    }]
+    }],
+    "meta":{
+      "theme": "jsonresume-theme-even"
+    }
   }
